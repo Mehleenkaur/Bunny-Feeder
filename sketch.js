@@ -83,18 +83,18 @@ function setup()
 
    //btn 2
    button2 = createImg('cut_btn.png');
-   button2.position(330,35);
+   button2.position(width/2+50,35);
    button2.size(60,60);
    button2.mouseClicked(drop2);
  
    //btn3
    button3 = createImg('cut_btn.png');
-   button3.position(360,200);
+   button3.position(width/2+80,200);
    button3.size(60,60);
    button3.mouseClicked(drop3);
 
   mute_btn = createImg('mute.png');
-  mute_btn.position(450,20);
+  mute_btn.position(width-50,20);
   mute_btn.size(50,50);
   mute_btn.mouseClicked(mute);
   
