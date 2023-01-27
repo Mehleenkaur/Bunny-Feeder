@@ -99,8 +99,8 @@ function setup()
   mute_btn.mouseClicked(mute);
   
   rope = new Rope(8,{x:40,y:30});
-  rope2 = new Rope(7,{x:370,y:40});
-  rope3 = new Rope(4,{x:400,y:225});
+  rope2 = new Rope(7,{x:width/2+90,y:40});
+  rope3 = new Rope(4,{x:width/2+120,y:225});
 
   ground = new Ground(width/2,height-10,width,20);
   blink.frameDelay = 20;
